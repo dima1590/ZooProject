@@ -1,0 +1,16 @@
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\bin\Debug\net8.0\Zoo.Infrastructure.deps.json
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\bin\Debug\net8.0\Zoo.Infrastructure.dll
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\bin\Debug\net8.0\Zoo.Infrastructure.pdb
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\bin\Debug\net8.0\Zoo.Core.dll
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\bin\Debug\net8.0\Zoo.Core.pdb
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.AssemblyInfo.cs
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.sourcelink.json
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infr.64A231E8.Up2Date
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.dll
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\refint\Zoo.Infrastructure.dll
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\Zoo.Infrastructure.pdb
+C:\Users\yandu\source\repos\ZooProject\src\Zoo.Infrastructure\obj\Debug\net8.0\ref\Zoo.Infrastructure.dll

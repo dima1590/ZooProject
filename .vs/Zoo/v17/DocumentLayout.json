@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yandu\\source\\repos\\ZooProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32D7A49F-D4CB-4F58-A04A-0F67C798F889}|src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj|c:\\users\\yandu\\source\\repos\\zooproject\\src\\zoo.infrastructure\\zoo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32D7A49F-D4CB-4F58-A04A-0F67C798F889}|src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj|solutionrelative:src\\zoo.infrastructure\\zoo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3E53D1-76CD-4623-85C5-C2E680644AB4}|src\\Zoo.UI\\Zoo.UI.csproj|c:\\users\\yandu\\source\\repos\\zooproject\\src\\zoo.ui\\zoo.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F3E53D1-76CD-4623-85C5-C2E680644AB4}|src\\Zoo.UI\\Zoo.UI.csproj|solutionrelative:src\\zoo.ui\\zoo.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D26A2DE-42D2-4218-B552-23236B19A634}|src\\Zoo.Application\\Zoo.Application.csproj|c:\\users\\yandu\\source\\repos\\zooproject\\src\\zoo.application\\zoo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D26A2DE-42D2-4218-B552-23236B19A634}|src\\Zoo.Application\\Zoo.Application.csproj|solutionrelative:src\\zoo.application\\zoo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894D1CE9-F8E9-463E-B46C-44C4217282FB}|src\\Zoo.Core\\Zoo.Core.csproj|c:\\users\\yandu\\source\\repos\\zooproject\\src\\zoo.core\\zoo.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{894D1CE9-F8E9-463E-B46C-44C4217282FB}|src\\Zoo.Core\\Zoo.Core.csproj|solutionrelative:src\\zoo.core\\zoo.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Zoo.Core",
+              "DocumentMoniker": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Core\\Zoo.Core.csproj",
+              "RelativeDocumentMoniker": "src\\Zoo.Core\\Zoo.Core.csproj",
+              "ToolTip": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Core\\Zoo.Core.csproj",
+              "RelativeToolTip": "src\\Zoo.Core\\Zoo.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T15:24:54.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Zoo.UI",
+              "DocumentMoniker": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.UI\\Zoo.UI.csproj",
+              "RelativeDocumentMoniker": "src\\Zoo.UI\\Zoo.UI.csproj",
+              "ToolTip": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.UI\\Zoo.UI.csproj",
+              "RelativeToolTip": "src\\Zoo.UI\\Zoo.UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T15:23:30.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Zoo.Application",
+              "DocumentMoniker": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Application\\Zoo.Application.csproj",
+              "RelativeDocumentMoniker": "src\\Zoo.Application\\Zoo.Application.csproj",
+              "ToolTip": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Application\\Zoo.Application.csproj",
+              "RelativeToolTip": "src\\Zoo.Application\\Zoo.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T15:22:12.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zoo.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj",
+              "RelativeToolTip": "src\\Zoo.Infrastructure\\Zoo.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T15:21:35.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 293,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
