@@ -5,14 +5,15 @@ namespace  Zoo.Core.Abstractions;
 
 public abstract class AnimalBase : IAnimal
 {
-    long Id { get; set; }
-    string Name { get; set; }
-    int Age { get; set; }
-    double Weight { get; set; }
-    bool IsHungry { get; }
-    bool IsSleeping { get; }
-    AnimalType Kind { get; }
-    public AnimalBase(long id,  string name, int age, double weight, AnimalType kind)
+    protected long Id { get; set; }
+    protected string Name { get; set; }
+    protected int Age { get; set; }
+    protected double Weight { get; set; }
+    protected bool IsHungry { get; } 
+    protected bool IsSleeping { get; }
+    protected AnimalType Kind { get; }
+
+    public AnimalBase (long id, string name, int age, double weight, AnimalType kind)
     {
         Id = id;
         Name = name;
@@ -20,8 +21,9 @@ public abstract class AnimalBase : IAnimal
         Weight = weight;    
         IsHungry = true;
         IsSleeping = false;
-        AnimalType Kind = kind;
+        Kind = kind;
     }
+
     /// <summary>
     /// Дата заселения в вольер 
     /// </summary>

@@ -1,6 +1,6 @@
 ﻿namespace Zoo.Core.Abstractions.Interfaces
 {
-    interface IEnclosure
+    public interface IEnclosure
     {
         IEnumerable<IAnimal> GetAnimals(); 
         IAnimal GetAnimalById(long id);  

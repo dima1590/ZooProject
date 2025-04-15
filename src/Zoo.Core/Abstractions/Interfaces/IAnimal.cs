@@ -1,6 +1,6 @@
 ﻿namespace Zoo.Core.Abstractions.Interfaces
 {
-    interface IAnimal
+    public interface IAnimal
     {
         void MakeSound();
         void Feed();
