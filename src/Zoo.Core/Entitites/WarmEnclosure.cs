@@ -3,9 +3,10 @@ using Zoo.Core.Abstractions.Interfaces;
 
 namespace Zoo.Core.Enclosers
 {
-    public class СoldEnclosure : EnclosureBase
+    public class WarmEnclosure : EnclosureBase
     {
-        public СoldEnclosure (string name, int temperature, int humidity, long id, IEnumerable<IAnimal> animals) : base(name, temperature, humidity, id, animals)
+        public WarmEnclosure (long id, string name, int temperature, int humidity, IEnumerable<IAnimal> animals)
+            : base(id, name, temperature, humidity, animals)
         {
         }
 
@@ -29,7 +30,7 @@ namespace Zoo.Core.Enclosers
             throw new NotImplementedException();
         }
 
-        public override long SetAnimal(IAnimal animal)
+        public override long AddAnimal(IAnimal animal)
         {
             throw new NotImplementedException();
         }

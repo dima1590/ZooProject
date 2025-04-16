@@ -13,7 +13,17 @@ public abstract class AnimalBase : IAnimal
     protected bool IsSleeping { get; }
     protected AnimalType Kind { get; }
 
-    public AnimalBase (long id, string name, int age, double weight, AnimalType kind)
+    /// <summary>
+    /// Дата заселения в вольер 
+    /// </summary>
+    protected DateTime SettlementDate { get; set; }
+
+    /// <summary>
+    /// Дата переселения в вольер 
+    /// </summary>
+    protected DateTime ResettlementDate { get; set; }
+
+    public AnimalBase (long id, string name, int age, double weight, AnimalType kind, DateTime settlementDate, DateTime resettlementDate)
     {
         Id = id;
         Name = name;
@@ -22,35 +32,19 @@ public abstract class AnimalBase : IAnimal
         IsHungry = true;
         IsSleeping = false;
         Kind = kind;
+        SettlementDate = settlementDate;
+        ResettlementDate = resettlementDate;
     }
 
-    /// <summary>
-    /// Дата заселения в вольер 
-    /// </summary>
-    DateTime SettlementDate { get; set; }
-
-    /// <summary>
-    /// Дата переселения в вольер 
-    /// </summary>
-    DateTime ResettlementDate { get; set; }
-
-    /// <summary>
-    /// Покормить животное 
-    /// </summary>
+    /// <inheritdoc/>
     public abstract void Feed();
 
-    /// <summary>
-    /// Подать голос
-    /// </summary>
+    /// <inheritdoc/>
     public abstract void MakeSound();
 
-    /// <summary>
-    /// Поиграть с животным 
-    /// </summary>
+    /// <inheritdoc/>
     public abstract void Play();
 
-    /// <summary>
-    /// Уложить спать
-    /// </summary>
+    /// <inheritdoc/>
     public abstract void Sleep();
 }

@@ -1,35 +1,32 @@
 ﻿using Zoo.Core.Abstractions;
 using Zoo.Core.Enums;
 
-namespace Zoo.Core;
+namespace Zoo.Core.Entitites;
 
 public class Zebra : AnimalBase
 {
     public Zebra(long id, string name, int age, double weight, AnimalType kind)
-        : base(id, name, age, weight, kind)
+        : base(id, name, age, weight, kind, settlementDate: DateTime.UtcNow, resettlementDate: DateTime.UtcNow)
     {
     }
-    /// <inheritdoc/>
+
     public override void Feed()
     {
-        
+        throw new NotImplementedException();
     }
 
-    /// <inheritdoc/>
     public override void MakeSound()
     {
-        Console.WriteLine("ИГого!");
+        throw new NotImplementedException();
     }
 
-    /// <inheritdoc/>
     public override void Play()
     {
-        
+        throw new NotImplementedException();
     }
 
-    /// <inheritdoc/>
     public override void Sleep()
     {
-       
+       throw new NotImplementedException();
     }
 }

@@ -4,21 +4,21 @@ namespace Zoo.Core.Abstractions
 {
     public abstract class EnclosureBase : IEnclosure
     {
-        protected int Temperature { get;set; }
+        protected int Temperature { get; set; }
 
         /// <summary>
         /// Влажность
         /// </summary>
-        protected int Humidity { get;set; }
-        protected string Name { get;set ;}
-        protected long Id { get;set; }
+        protected int Humidity { get; set; }
+        protected string Name { get; set;}
+        protected long Id { get; set; }
 
         /// <summary>
         /// Животных в вольере
         /// </summary>
-       IEnumerable <IAnimal> Animals { get;set; }
+        IEnumerable<IAnimal> Animals { get; set; }
 
-        public EnclosureBase (string name, int temperature, int humidity, long id, IEnumerable<IAnimal> animals)
+        public EnclosureBase (long id, string name, int temperature, int humidity, IEnumerable<IAnimal> animals)
         {
             Name = name;
             Temperature = temperature;
@@ -26,26 +26,20 @@ namespace Zoo.Core.Abstractions
             Id = id;
             Animals = animals;
         }
-        public abstract IEnumerable <IAnimal> GetAnimals();
 
-        /// <summary>
-        ///  Найти животное по его ID
-        /// </summary>
+        /// <inheritdoc/>
+        public abstract IEnumerable<IAnimal> GetAnimals();
+
+        /// <inheritdoc/>
         public abstract IAnimal GetAnimalById(long id);
 
-        /// <summary>
-        /// Добавляет животное в вольер 
-        /// </summary>
-        public abstract long SetAnimal(IAnimal animal);
+        /// <inheritdoc/>
+        public abstract long AddAnimal(IAnimal animal);
 
-        /// <summary>
-        ///  Удаляет животное из вольера по его ID
-        /// </summary>
+        /// <inheritdoc/>
         public abstract long DeleteAnimalById(long id);
 
-        /// <summary>
-        ///  Удаляет всех животных из вольера
-        /// </summary>
-        public abstract IEnumerable <long> DeleteAllAnimals();          
+        /// <inheritdoc/>
+        public abstract IEnumerable<long> DeleteAllAnimals();          
     }
 }
