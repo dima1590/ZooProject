@@ -5,11 +5,8 @@ namespace Zoo.Core.Enclosers
 {
     public class WarmEnclosure : EnclosureBase
     {
-        public WarmEnclosure (long id, string name, int temperature, int humidity, IEnumerable<IAnimal> animals)
-            : base(id, name, temperature, humidity, animals)
-        {
-        }
-
+        public WarmEnclosure() : base() // Значения по умолчанию
+        {}
         public override IEnumerable <long> DeleteAllAnimals()
         {
             throw new NotImplementedException();

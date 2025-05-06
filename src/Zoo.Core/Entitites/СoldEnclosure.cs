@@ -5,10 +5,8 @@ namespace Zoo.Core.Enclosers
 {
     public class СoldEnclosure : EnclosureBase
     {
-        public СoldEnclosure (long id, string name, int temperature, int humidity, IEnumerable<IAnimal> animals)
-            : base(id, name, temperature, humidity, animals)
-        {
-        }
+        public СoldEnclosure(): base() // Значения по умолчанию
+        { }
 
         public override IEnumerable <long> DeleteAllAnimals()
         {

@@ -4,29 +4,32 @@ namespace Zoo.Core.Abstractions
 {
     public abstract class EnclosureBase : IEnclosure
     {
-        protected int Temperature { get; set; }
+        public int Temperature { get; set; }
 
         /// <summary>
         /// Влажность
         /// </summary>
-        protected int Humidity { get; set; }
-        protected string Name { get; set;}
-        protected long Id { get; set; }
+        public int Humidity { get; set; }
+        public string Name { get; set;}
+        public long Id { get; set; }
+        public int Capacity { get; set; }
 
         /// <summary>
-        /// Животных в вольере
+        ///  Животных в вольере
         /// </summary>
-        IEnumerable<IAnimal> Animals { get; set; }
+        public IEnumerable<IAnimal> Animals { get; set; }
 
-        public EnclosureBase (long id, string name, int temperature, int humidity, IEnumerable<IAnimal> animals)
+        public EnclosureBase (long id, string name, int temperature, int humidity, int capacity, IEnumerable<IAnimal> animals)
         {
+            Id = id;
             Name = name;
             Temperature = temperature;
-            Humidity = humidity;
-            Id = id;
+            Humidity = humidity;  
+            Capacity = capacity;
             Animals = animals;
-        }
 
+        }
+   
         /// <inheritdoc/>
         public abstract IEnumerable<IAnimal> GetAnimals();
 
@@ -40,6 +43,7 @@ namespace Zoo.Core.Abstractions
         public abstract long DeleteAnimalById(long id);
 
         /// <inheritdoc/>
-        public abstract IEnumerable<long> DeleteAllAnimals();          
+        public abstract IEnumerable<long> DeleteAllAnimals();    
+        
     }
 }
