@@ -14,6 +14,7 @@ namespace Zoo.Core.Abstractions
         public long Id { get; set; }
         public int Capacity { get; set; }
 
+       
         /// <summary>
         ///  Животных в вольере
         /// </summary>
@@ -27,9 +28,9 @@ namespace Zoo.Core.Abstractions
             Humidity = humidity;  
             Capacity = capacity;
             Animals = animals;
-
         }
-   
+        public EnclosureBase()
+        { }
         /// <inheritdoc/>
         public abstract IEnumerable<IAnimal> GetAnimals();
 

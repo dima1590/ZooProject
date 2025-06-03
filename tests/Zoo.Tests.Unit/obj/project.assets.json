@@ -5448,23 +5448,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yandu\\.nuget\\packages\\": {},
+    "C:\\Users\\fifyv\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yandu\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\Zoo.Tests.Unit.csproj",
+      "projectUniqueName": "C:\\Users\\fifyv\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\Zoo.Tests.Unit.csproj",
       "projectName": "Zoo.Tests.Unit",
-      "projectPath": "C:\\Users\\yandu\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\Zoo.Tests.Unit.csproj",
-      "packagesPath": "C:\\Users\\yandu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yandu\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\obj\\",
+      "projectPath": "C:\\Users\\fifyv\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\Zoo.Tests.Unit.csproj",
+      "packagesPath": "C:\\Users\\fifyv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fifyv\\source\\repos\\ZooProject\\tests\\Zoo.Tests.Unit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yandu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fifyv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5473,8 +5473,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "http://10.70.0.24:5000/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5492,7 +5490,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5527,22 +5526,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Вы выполняете операцию ''restore'' с источником ''HTTP'', ''http://10.70.0.24:5000/v3/index.json''. Доступ без HTTPS будет удален в будущей версии. Рассмотрите возможность перехода на источник ''HTTPS''."
-    },
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника http://10.70.0.24:5000/v3/index.json."
-    }
-  ]
+  }
 }

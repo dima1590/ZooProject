@@ -10,3 +10,15 @@ C:\Users\yandu\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.dl
 C:\Users\yandu\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\refint\Zoo.Core.dll
 C:\Users\yandu\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.pdb
 C:\Users\yandu\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\ref\Zoo.Core.dll
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\bin\Debug\net8.0\Zoo.Core.deps.json
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\bin\Debug\net8.0\Zoo.Core.dll
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\bin\Debug\net8.0\Zoo.Core.pdb
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.AssemblyInfoInputs.cache
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.AssemblyInfo.cs
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.csproj.CoreCompileInputs.cache
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.sourcelink.json
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.dll
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\refint\Zoo.Core.dll
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\Zoo.Core.pdb
+C:\Users\fifyv\source\repos\ZooProject\src\Zoo.Core\obj\Debug\net8.0\ref\Zoo.Core.dll

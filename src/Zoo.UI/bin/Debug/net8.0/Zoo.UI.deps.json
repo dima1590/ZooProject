@@ -19,12 +19,18 @@
           "Zoo.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "Zoo.Application.dll": {}
+          "Zoo.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Zoo.Core/1.0.0": {
         "runtime": {
-          "Zoo.Core.dll": {}
+          "Zoo.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Zoo.Infrastructure/1.0.0": {
@@ -32,7 +38,10 @@
           "Zoo.Core": "1.0.0"
         },
         "runtime": {
-          "Zoo.Infrastructure.dll": {}
+          "Zoo.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

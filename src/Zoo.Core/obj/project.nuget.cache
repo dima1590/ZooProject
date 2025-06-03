@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FUno6w20nkA=",
+  "dgSpecHash": "1J0ANw8TCfA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yandu\\source\\repos\\ZooProject\\src\\Zoo.Core\\Zoo.Core.csproj",
+  "projectFilePath": "C:\\Users\\fifyv\\source\\repos\\ZooProject\\src\\Zoo.Core\\Zoo.Core.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Вы выполняете операцию ''restore'' с источником ''HTTP'', ''http://10.70.0.24:5000/v3/index.json''. Доступ без HTTPS будет удален в будущей версии. Рассмотрите возможность перехода на источник ''HTTPS''."
-    }
-  ]
+  "logs": []
 }
