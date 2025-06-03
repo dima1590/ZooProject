@@ -115,7 +115,7 @@ namespace Zoo.UI
         static void ShowAllEnclosures(List<EnclosureBase> enclosures)
         {
             Console.Clear();
-            Console.WriteLine("*** Cистема управления зоопарком  *** ");
+            Console.WriteLine("*** Cистема управления зоопарком  1*** ");
             Console.WriteLine();
             if (enclosures.Count == 0)
             {
