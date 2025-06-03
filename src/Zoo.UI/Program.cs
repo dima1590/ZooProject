@@ -58,19 +58,19 @@ namespace Zoo.UI
                 case "1":
                     name = "Aквариум";
                     return new Aquarium();
-                    break;
+                  
                 case "2":
                     name = "Холодный вольер";
                     return new СoldEnclosure();
-                    break;
+                   
                 case "3":
                     name = "Теплый вольер";
                     return new WarmEnclosure();
-                    break;
+                   
                 default:
                     Console.WriteLine("Неверный ввод ,по умолчанию установлен (теплый)");
                     return new WarmEnclosure();
-                    break;
+                   
             }
         }
 
@@ -115,7 +115,7 @@ namespace Zoo.UI
         static void ShowAllEnclosures(List<EnclosureBase> enclosures)
         {
             Console.Clear();
-            Console.WriteLine("*** Cистема управления зоопарком  1*** ");
+            Console.WriteLine("*** Cистема управления зоопарком  *** ");
             Console.WriteLine();
             if (enclosures.Count == 0)
             {
